@@ -1,0 +1,30 @@
+Should go somewhat like this:
+
+git clone https://github.com/rdpeng/ExData_Plotting1
+
+Now add your code and make it generate the images. I create a .gitignore file in my repository to ignore certain kind of files. This is what I have:
+
+.RData
+.Rhistory
+*.bak
+*.gz
+*.Rout
+*.*~
+
+
+Go to github create an account. Create a repository. Call it ExData_Plotting1. Assuming your account  is called user1. Note the url for your repository. It is what is used below in one of the commands.
+
+git add -A .
+git commit -m "My first check in"
+git remote rename origin upstream
+git remote add origin https://github.com/user1/ExData_Plotting1.git
+git push -u origin master
+
+
+This should get your code and images to the repository. Continue making changes as needed to your code and images. Push the changes to the remote repository.
+
+git add -A .
+git commit -m "Code updated"
+git push origin master
+
+ Hope this helps.
