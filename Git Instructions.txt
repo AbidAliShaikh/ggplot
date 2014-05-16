@@ -27,4 +27,31 @@ git add -A .
 git commit -m "Code updated"
 git push origin master
 
- Hope this helps.
+ Hope this helps.\
+
+
+
+----------------------
+Hi everyone,
+
+I finally got it to work, and just wanted to post my steps for those of you that have been having trouble:
+
+1. Set you working directory on your machine using the "cd" command.
+
+2. Type "git init" to initialize a local repository
+
+3. Type "git add plot1.R" etc. to add all your files to this repository
+
+4. Type "git commit -m <comment>" to commit these files to the repository
+
+5. Type "git remote add origin https://github.com/<username>/ExData_Plotting1.git
+
+6. Type "git remote -v" to verify this url
+
+Now, before pushing, there are a couple more steps to take:
+
+7. Type "git pull origin master" to sync your local repository with the remote repository
+
+8. Finally, type "git push origin master" to push your files to the remote repository.
+
+Hope this helps!
